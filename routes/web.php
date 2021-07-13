@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('main_page',[
+        'links'=> ['Characters','Comics','Movies','Tv','Games','Collectibles','Videos','Fans','news','Shop']
+    ]
+);
 });

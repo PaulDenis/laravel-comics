@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  height: 100px;
+}
+
+header .w-70 {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  height: 100px;
+  margin: auto;
+}
+
+header .w-70 img {
+  height: 80px;
+}
+
+header .w-70 .links {
+  flex-grow: 1;
+}
+
+header .w-70 .inline-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .w-70 .inline-list li {
+  display: inline-block;
+}
+
+header .w-70 .inline-list li a {
+  text-decoration: none;
+  color: black;
+}
+
