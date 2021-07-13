@@ -4,4 +4,10 @@
     margin: 0;
 }
 
-@import 'partials/header.scss';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import 'partials/header';
+@import 'partials/main';
+@import 'partials/footer';

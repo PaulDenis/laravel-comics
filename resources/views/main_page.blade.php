@@ -21,8 +21,6 @@
         @include('partials/main')
 
         {{-- Footer con altri link, social e copyright --}}
-        <footer>
-
-        </footer>
+        @include('partials/footer')
     </body>
 </html>

@@ -1,0 +1,99 @@
+footer {
+    #footer_links {
+        background-image: url("/images/footer-bg.jpg") ;
+    }
+    
+    .footer_content {
+        width: 70%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        height: 300px;
+        padding-top: 20px;
+        background: url("/images/dc-logo-bg.png") right center no-repeat;
+    
+        ul {
+            list-style: none;
+            margin: 5px 20px;
+        };
+    }
+    
+    li {
+        a {
+            font-size: 12px;
+            color: #7d7a77;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    
+    li:first-child {
+        a {
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: white;
+        };
+        margin: 10px 0;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .footer_social {
+            background-color: #303030;
+        .social {
+            width: 70%;
+            height: 100px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .networks {
+            display: flex;
+            align-items: center;
+        }
+        .button {
+            padding: 15px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 700;
+            border: 2px solid #0282f9;
+            color: white;
+            &:hover {
+                text-decoration: underline;
+            }
+    
+        }
+        h2 {
+            display: inline-block;
+            color: #0282f9;
+            margin-right: 20px;
+        }
+        ul {
+            list-style: none;
+            display: inline-block;
+            font-size: 20px;
+            color: #303030;
+            li {
+                height: 30px;
+                width: 30px;
+                margin: 0 10px;
+                padding-top: 5px;
+                display: inline-block;
+                border-radius: 50%;
+                text-align: center;
+                background-color:#797979;
+                a {
+                    color: #303030;
+                }
+            }
+        }
+    }
+}
+
