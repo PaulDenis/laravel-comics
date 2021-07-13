@@ -8,5 +8,9 @@
                 @endforeach
             </ul>
         </div>
+        <div class="search">
+            <input type="text" placeholder="Search">
+        </div>
     </div>
+    <div class="jumbotron"></div>
 </header>

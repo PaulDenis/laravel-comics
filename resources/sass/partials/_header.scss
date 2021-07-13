@@ -1,0 +1,36 @@
+header {
+    // height: 100px;
+    .w-70 {
+        display: flex;
+        align-items: center;
+        width: 70%;
+        height: 100px;
+        margin: auto;
+        img {
+            height: 80px;
+        }
+        .links {
+            margin: 0 75px;
+            flex-grow: 1;
+        }
+        .inline-list {
+            display: flex;
+            justify-content: space-between;
+            li {
+                display: inline-block;
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+        input {
+            border: none;
+            border-bottom: 2px solid blue;
+            text-align: right;
+        }
+    }
+    .jumbotron {
+        height: 300px;
+    }
+}

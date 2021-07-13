@@ -18,9 +18,7 @@
         @include('partials/header')
 
         {{-- Main con fumetti e merchandaise --}}
-        <main>
-
-        </main>
+        @include('partials/main')
 
         {{-- Footer con altri link, social e copyright --}}
         <footer>

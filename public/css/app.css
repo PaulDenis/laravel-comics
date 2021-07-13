@@ -4,10 +4,6 @@
   margin: 0;
 }
 
-header {
-  height: 100px;
-}
-
 header .w-70 {
   display: flex;
   align-items: center;
@@ -21,6 +17,7 @@ header .w-70 img {
 }
 
 header .w-70 .links {
+  margin: 0 75px;
   flex-grow: 1;
 }
 
@@ -36,5 +33,15 @@ header .w-70 .inline-list li {
 header .w-70 .inline-list li a {
   text-decoration: none;
   color: black;
+}
+
+header .w-70 input {
+  border: none;
+  border-bottom: 2px solid blue;
+  text-align: right;
+}
+
+header .jumbotron {
+  height: 300px;
 }
 
